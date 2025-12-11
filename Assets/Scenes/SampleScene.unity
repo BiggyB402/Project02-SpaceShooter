@@ -713,6 +713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet
       objectReference: {fileID: 0}
+    - target: {fileID: 2843398935982608171, guid: 5f84ccc22fde17d479ae5cbe975069eb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3964365490790747667, guid: 5f84ccc22fde17d479ae5cbe975069eb, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -721,11 +725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5142948297524552369, guid: 5f84ccc22fde17d479ae5cbe975069eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.07
+      value: -5.63
       objectReference: {fileID: 0}
     - target: {fileID: 5142948297524552369, guid: 5f84ccc22fde17d479ae5cbe975069eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.91
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5142948297524552369, guid: 5f84ccc22fde17d479ae5cbe975069eb, type: 3}
       propertyPath: m_LocalPosition.z
