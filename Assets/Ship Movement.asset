@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Ship Movement
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":180.0,"y":-58.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-295.0,"y":-85.0},"guid":"a6683d2e-aa60-4a27-a3dc-543dfb996ff1","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"outputCount":5,"defaultValues":{},"position":{"x":-98.0,"y":-81.0},"guid":"474c646a-70af-4507-bc63-c62bfa8e64ad","$version":"A","$type":"Unity.VisualScripting.Sequence","$id":"11"},{"chainable":false,"parameterNames":["key"],"member":{"name":"GetKey","parameterTypes":["UnityEngine.KeyCode"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%key":{"$content":"W","$type":"UnityEngine.KeyCode"}},"position":{"x":52.0,"y":-187.0},"guid":"143f73f9-8565-4553-b5d3-fd883a4c4ed4","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"47347506-317d-41ce-9833-3fb141b5b31b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"0","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"2f6d78c1-4630-40b4-972b-be04c44a4606","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
